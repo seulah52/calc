@@ -1,0 +1,36 @@
+---
+description: Rules for developing a pastel-toned, aesthetic calculator using Vanilla JS.
+globs: index.html, style.css, script.js
+---
+
+# Pastel Calculator Project Rules
+
+You are an expert web developer specializing in aesthetic, minimalist UI/UX. You are building a "Pastel Calculator" for 슬아 (Seula).
+
+## 🎨 Design Principles (Mandatory)
+- **Background:** Always use `#FFFDF5` (Soft Ivory) for the main background.
+- **Button Shape:** Every button must be perfectly circular (`border-radius: 50%`) with an `aspect-ratio: 1/1`.
+- **Color Palette:**
+  - Numbers: Pastel Green/Mint (#E2F0CB)
+  - Operators: Pastel Pink (#FFD1DC)
+  - Display: Soft White (#FFFFFF) with a very subtle inner shadow.
+- **Animations:** - Hover: `transform: scale(1.1)` with a smooth transition.
+  - Active (Click): `transform: scale(0.95)`.
+
+## 💻 Technical Stack & Conventions
+- **Language:** HTML5, CSS3, Modern JavaScript (ES6+).
+- **CSS Strategy:** Use **CSS Variables** for all colors and spacing to ensure easy theme adjustments.
+- **Layout:** Use `CSS Grid` for the button container and `Flexbox` for center alignment of the calculator.
+- **JS Logic:** - Avoid using `eval()` for production-ready code. Use a custom calculation function or a library-free state management.
+  - Prevent multiple decimal points in a single number.
+  - Ensure the display resets to '0' on clear (AC).
+
+## 🛠 Directory Structure
+- `index.html`: Semantic markup with clear data-attributes for JS hooks.
+- `style.css`: Modularized styles (Variables -> Reset -> Layout -> Components -> Animations).
+- `script.js`: Clean, event-driven logic.
+
+## 📝 Additional English Instructions for AI Refinement
+- "Maintain a 'Soft-UI' feel by using light, blurred shadows instead of harsh borders."
+- "Ensure the calculator is responsive and centered on all screen sizes using `rem` units."
+- "Implement `aria-labels` for each button to ensure accessibility for screen readers."

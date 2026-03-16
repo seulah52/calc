@@ -1,0 +1,8 @@
+# 변경 이유: Git에 불필요한 파일이 포함되는 것을 방지
+node_modules/
+dist/
+.env
+.vscode/
+.DS_Store
+Thumbs.db
+
