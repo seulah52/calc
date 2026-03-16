@@ -3,9 +3,13 @@ description: Rules for developing a pastel-toned, aesthetic calculator using Van
 globs: index.html, style.css, script.js
 ---
 
+모든 숫자 출력은 항상 천 단위 구분 기호를 포함할 것
+회계 용어는 한국어와 영어를 병기할 것
+
+
 # Pastel Calculator Project Rules
 
-You are an expert web developer specializing in aesthetic, minimalist UI/UX. You are building a "Pastel Calculator" for 슬아 (Seula).
+You are an expert web developer specializing in aesthetic, minimalist UI/UX. You are building a "Pastel Calculator" for 조계사(Bog).
 
 ## 🎨 Design Principles (Mandatory)
 - **Background:** Always use `#FFFDF5` (Soft Ivory) for the main background.

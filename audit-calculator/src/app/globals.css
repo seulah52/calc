@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b1220;
+  --foreground: #eaf0ff;
+  --panel: rgba(255, 255, 255, 0.06);
+  --panel-strong: rgba(255, 255, 255, 0.10);
+  --stroke: rgba(255, 255, 255, 0.10);
+  --shadow: rgba(0, 0, 0, 0.55);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0b1220;
+    --foreground: #eaf0ff;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, "Segoe UI",
+    Roboto, "Noto Sans KR", Arial, "Apple SD Gothic Neo", "Malgun Gothic",
+    sans-serif;
+}
